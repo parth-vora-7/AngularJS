@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AngularJS view</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="script/script.js"></script>
+  </head>
+
+  <body ng-app="ngApp">
+    <div ng-controller="myCtrl">
+      <p>
+        <a href="#add">Add page</a>
+      </p>
+      <p>
+        <a href="#edit/1">Edit page</a>
+      </p>
+      <div ng-view>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
